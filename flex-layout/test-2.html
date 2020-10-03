@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style-2.css" />
+    <title>flex-layout</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>freeCodeCamp Survey Form</h2>
+      <p class="h3">
+        <em>Thank you for taking the time to help us improve the platform</em>
+      </p>
+      <div class="form">
+        <div class="items">
+          <p>Name</p>
+          <input type="text" name="name" placeholder="Enter name" />
+        </div>
+        <div class="items">
+          <p>Email</p>
+          <input type="email" name="email" placeholder="Enter email" />
+        </div>
+        <div class="items">
+          <p>Age(option)</p>
+          <input type="number" name="number" placeholder="Your age" />
+        </div>
+        <div class="items">
+          <p>Which option best describes your current role?</p>
+          <select>
+            <option disabled selected value>Select current role</option>
+            <option value="student">Student</option>
+            <option value="job">Full time job</option>
+            <option value="learner">Full time learner</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="items">
+          <p>Would you recommend freeCodeCamp to a friend?</p>
+          <lable>
+            <input
+              name="test"
+              class="select"
+              value="definitely"
+              type="radio"
+              checked
+            />
+            Definitely
+          </lable>
+          <lable>
+            <input name="test" class="select" value="hamomo" type="radio" />
+            Hamomo
+          </lable>
+          <lable>
+            <input name="test" class="select" value="no sure" type="radio" />
+            No sure
+          </lable>
+        </div>
+        <div class="items">
+          <p>What is your favorite feature of freeCodeCamp?</p>
+          <select>
+            <option disabled selected value>Select current role</option>
+            <option class="option" value="student">Student</option>
+            <option value="job">Full time job</option>
+            <option value="learner">Full time learner</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="items">
+          <p>What would you like to see improved? (Check all that apply)</p>
+          <lable>
+            <input class="select" value="definitely" type="checkbox" />
+            First
+          </lable>
+          <lable>
+            <input class="select" value="definitely" type="checkbox" />
+            Second
+          </lable>
+          <lable>
+            <input class="select" value="definitely" type="checkbox" />
+            third
+          </lable>
+          <lable>
+            <input class="select" value="definitely" type="checkbox" />
+            Fourth </lable
+          ><lable>
+            <input class="select" value="definitely" type="checkbox" />
+            Fifth
+          </lable>
+          <lable>
+            <input class="select" value="definitely" type="checkbox" />
+            Sixth
+          </lable>
+        </div>
+        <div class="items">
+          <p>Any comments or suggestions?</p>
+          <textarea placeholder="Enter some things"></textarea>
+        </div>
+        <div class="items">
+          <button>Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
